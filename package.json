@@ -22,6 +22,7 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
+        "antd": "^4.2.2",
         "copy-to-clipboard": "^3.3.1"
     }
 }
