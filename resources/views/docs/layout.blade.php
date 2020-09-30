@@ -17,18 +17,18 @@
 <body>
 <div id="react-content">
     <header id="header" class="clearfix">
-        <x-antd-row style="flex-flow: nowrap; height: 64px;">
-            <x-antd-col xxl="4" xl="5" lg="6" md="6" sm="24" xs="24">
+        <x-row style="flex-flow: nowrap; height: 64px;">
+            <x-col xxl="4" xl="5" lg="6" md="6" sm="24" xs="24">
                 <h1>
                     <a id="logo" href="/index-cn">
                         <img alt="logo" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
                         Ant Design
                     </a>
                 </h1>
-            </x-antd-col>
-            <x-antd-col xxl="20" xl="19" lg="18" md="18" sm="0" xs="0" class="menu-row">
+            </x-col>
+            <x-col xxl="20" xl="19" lg="18" md="18" sm="0" xs="0" class="menu-row">
                 <div id="search-box" class="">
-{{--                    <x-antd-icon name="search" />--}}
+{{--                    <x-icon name="search" />--}}
 
 {{--                    <span--}}
 {{--                        class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;">--}}
@@ -62,24 +62,24 @@
 
 
 
-            </x-antd-col>
-        </x-antd-row>
+            </x-col>
+        </x-row>
 
     </header>
     <div class="main-wrapper">
-        <x-antd-row>
-            <x-antd-col xxl="4" xl="5" lg="6" md="6" sm="24" xs="24" class="main-menu">
-            <x-antd-affix>
+        <x-row>
+            <x-col xxl="4" xl="5" lg="6" md="6" sm="24" xs="24" class="main-menu">
+            <x-affix>
                 <section class="main-menu-inner">
                     @yield('menu')
                 </section>
-            </x-antd-affix>
-            </x-antd-col>
-            <x-antd-col xxl="20" xl="19" lg="18" md="18" sm="24" xs="24">
+            </x-affix>
+            </x-col>
+            <x-col xxl="20" xl="19" lg="18" md="18" sm="24" xs="24">
                 @yield('main')
-            </x-antd-col>
+            </x-col>
 
-        </x-antd-row>
+        </x-row>
     </div>
 </div>
 

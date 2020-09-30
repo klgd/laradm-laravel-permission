@@ -1,15 +1,15 @@
 @extends('docs.component')
 
 @section('content')
-    <x-antd-checkbox autoFocus>Checkbox</x-antd-checkbox>
+    <x-checkbox autoFocus>Checkbox</x-checkbox>
     <br>
     <br>
     <br>
 
     <div>
-        <x-antd-checkbox disabled />
+        <x-checkbox disabled />
         <br />
-        <x-antd-checkbox checked disabled />
+        <x-checkbox checked disabled />
     </div>
     <br>
     <br>
@@ -29,13 +29,13 @@
         ];
     @endphp
     <div>
-        <x-antd-checkbox.group name="fruit[]" :options="$plainOptions" :value="['Apple']" />
+        <x-checkbox.group name="fruit[]" :options="$plainOptions" :value="['Apple']" />
         <br />
         <br />
-        <x-antd-checkbox.group :options="$options" :value="['Pear']" />
+        <x-checkbox.group :options="$options" :value="['Pear']" />
         <br />
         <br />
-        <x-antd-checkbox.group
+        <x-checkbox.group
             :options="$optionsWithDisabled"
             disabled
             :value="['Apple']"
@@ -46,25 +46,25 @@
     <br>
     <br>
 
-    <x-antd-checkbox.group name="aadd" :value="['A', 'C']" disabled style="width: 100%">
-        <x-antd-row>
-            <x-antd-col span="8">
-            <x-antd-checkbox value="A">A</x-antd-checkbox>
-            </x-antd-col>
-            <x-antd-col span="8">
-            <x-antd-checkbox value="B" name="test[]">B</x-antd-checkbox>
-            </x-antd-col>
-            <x-antd-col span="8">
-            <x-antd-checkbox value="C" name="test[]">C</x-antd-checkbox>
-            </x-antd-col>
-            <x-antd-col span="8">
-            <x-antd-checkbox value="D">D</x-antd-checkbox>
-            </x-antd-col>
-            <x-antd-col span="8">
-            <x-antd-checkbox value="E">E</x-antd-checkbox>
-            </x-antd-col>
-        </x-antd-row>
-    </x-antd-checkbox.group>
+    <x-checkbox.group name="aadd" :value="['A', 'C']" disabled style="width: 100%">
+        <x-row>
+            <x-col span="8">
+            <x-checkbox value="A">A</x-checkbox>
+            </x-col>
+            <x-col span="8">
+            <x-checkbox value="B" name="test[]">B</x-checkbox>
+            </x-col>
+            <x-col span="8">
+            <x-checkbox value="C" name="test[]">C</x-checkbox>
+            </x-col>
+            <x-col span="8">
+            <x-checkbox value="D">D</x-checkbox>
+            </x-col>
+            <x-col span="8">
+            <x-checkbox value="E">E</x-checkbox>
+            </x-col>
+        </x-row>
+    </x-checkbox.group>
 
     <br>
     <br>
@@ -76,14 +76,14 @@
     </style>
     <div>
         <div class="site-checkbox-all-wrapper">
-            <x-antd-checkbox
+            <x-checkbox
                 indeterminate
             >
                 Check all
-            </x-antd-checkbox>
+            </x-checkbox>
         </div>
         <br />
-        <x-antd-checkbox.group
+        <x-checkbox.group
             :options="$plainOptions"
         />
     </div>

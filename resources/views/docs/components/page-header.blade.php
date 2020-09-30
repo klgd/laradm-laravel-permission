@@ -10,7 +10,7 @@
             padding: 24px;
         }
     </style>
-    <x-antd-page-header
+    <x-page-header
         class="site-page-header"
         title="Title"
         subTitle="This is a subtitle"
@@ -19,20 +19,20 @@
     <br>
     <br>
     <div class="site-page-header-ghost-wrapper">
-        <x-antd-page-header
+        <x-page-header
             :ghost="false"
             title="Title"
             subTitle="This is a subtitle"
         >
         <x-slot name="extra">
-            <x-antd-button key="3">Operation</x-antd-button>,
-            <x-antd-button key="2">Operation</x-antd-button>,
-            <x-antd-button key="1" type="primary">
+            <x-button key="3">Operation</x-button>,
+            <x-button key="2">Operation</x-button>,
+            <x-button key="1" type="primary">
                 Primary
-            </x-antd-button>
+            </x-button>
         </x-slot>
         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-        </x-antd-page-header>
+        </x-page-header>
     </div>
 
     <br>
@@ -54,14 +54,14 @@
             ],
         ];
     @endphp
-    <x-antd-page-header
+    <x-page-header
         class="site-page-header"
         title="Title"
         subTitle="This is a subtitle"
         :breadcrumb="['routes' => $routes]"
     />
 
-    <x-antd-page-header
+    <x-page-header
         id="aaaaa"
         class="site-page-header"
         title="Title"

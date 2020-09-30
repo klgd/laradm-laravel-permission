@@ -1,11 +1,11 @@
 @extends('docs.component')
 
 @section('content')
-    <x-antd-empty />
-    <x-antd-empty image="simple" />
+    <x-empty />
+    <x-empty image="simple" />
 
     <br>
-    <x-antd-empty
+    <x-empty
         image="https://gw.alipayobjects.com/zos/antfincdn/ZHrcdLPrvN/empty.svg"
         imageStyle="height: 60px"
     >
@@ -14,13 +14,13 @@
         Customize <a href="#API">Description</a>
       </span>
     </x-slot>
-    <x-antd-button type="primary">Create Now</x-antd-button>
-    </x-antd-empty>
+    <x-button type="primary">Create Now</x-button>
+    </x-empty>
 
-    <x-antd-empty
+    <x-empty
         image="https://gw.alipayobjects.com/zos/antfincdn/ZHrcdLPrvN/empty.svg"
         imageStyle="height: 60px"
     >
-        <x-antd-button type="primary">Create Now</x-antd-button>
-    </x-antd-empty>
+        <x-button type="primary">Create Now</x-button>
+    </x-empty>
 @endsection

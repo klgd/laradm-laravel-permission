@@ -8,11 +8,11 @@
         }
     </style>
     <div>
-        <x-antd-button type="primary">Primary</x-antd-button>
-        <x-antd-button>Default</x-antd-button>
-        <x-antd-button type="dashed">Dashed</x-antd-button>
-        <x-antd-button type="link">Link</x-antd-button>
-        <x-antd-button type="text">Text</x-antd-button>
+        <x-button type="primary">Primary</x-button>
+        <x-button>Default</x-button>
+        <x-button type="dashed">Dashed</x-button>
+        <x-button type="link">Link</x-button>
+        <x-button type="text">Text</x-button>
     </div>
 
 
@@ -21,31 +21,31 @@
 
     <div>
         {{--    <Tooltip title="search">--}}
-        <x-antd-button type="primary" shape="circle" icon="search">
+        <x-button type="primary" shape="circle" icon="search">
 
-        </x-antd-button>
+        </x-button>
         {{--    </Tooltip>--}}
-        <x-antd-button type="primary" shape="circle">
+        <x-button type="primary" shape="circle">
             A
-        </x-antd-button>
-        <x-antd-button type="primary" icon="search">
+        </x-button>
+        <x-button type="primary" icon="search">
             Search
-        </x-antd-button>
+        </x-button>
         {{--    <Tooltip title="search">--}}
-        <x-antd-button shape="circle" icon="search" />
+        <x-button shape="circle" icon="search" />
         {{--    </Tooltip>--}}
-        <x-antd-button icon="search">Search</x-antd-button>
+        <x-button icon="search">Search</x-button>
         <br />
         {{--    <Tooltip title="search">--}}
-        <x-antd-button shape="circle" icon="search" />
+        <x-button shape="circle" icon="search" />
         {{--    </Tooltip>--}}
-        <x-antd-button icon="search">Search</x-antd-button>
+        <x-button icon="search">Search</x-button>
         {{--    <Tooltip title="search">--}}
-        <x-antd-button type="dashed" shape="circle" icon="search" />
+        <x-button type="dashed" shape="circle" icon="search" />
         {{--    </Tooltip>--}}
-        <x-antd-button type="dashed" icon="search">
+        <x-button type="dashed" icon="search">
             Search
-        </x-antd-button>
+        </x-button>
     </div>
 
     <br />
@@ -62,65 +62,65 @@
             //$size = 'default';
             $size = 'small';
         @endphp
-        <x-antd-button type="primary" :size="$size">
+        <x-button type="primary" :size="$size">
             Primary
-        </x-antd-button>
-        <x-antd-button :size="$size">Default</x-antd-button>
-        <x-antd-button type="dashed" :size="$size">
+        </x-button>
+        <x-button :size="$size">Default</x-button>
+        <x-button type="dashed" :size="$size">
             Dashed
-        </x-antd-button>
+        </x-button>
         <br />
-        <x-antd-button type="link" :size="$size">
+        <x-button type="link" :size="$size">
             Link
-        </x-antd-button>
+        </x-button>
         <br />
-        <x-antd-button type="primary" icon="download" :size="$size" />
-        <x-antd-button type="primary" shape="circle" icon="download" :size="$size" />
-        <x-antd-button type="primary" shape="round" icon="download" :size="$size" />
-        <x-antd-button type="primary" shape="round" icon="download" :size="$size">
+        <x-button type="primary" icon="download" :size="$size" />
+        <x-button type="primary" shape="circle" icon="download" :size="$size" />
+        <x-button type="primary" shape="round" icon="download" :size="$size" />
+        <x-button type="primary" shape="round" icon="download" :size="$size">
             Download
-        </x-antd-button>
-        <x-antd-button type="primary" icon="download" :size="$size">
+        </x-button>
+        <x-button type="primary" icon="download" :size="$size">
             Download
-        </x-antd-button>
+        </x-button>
     </div>
 
     <br /><br />
     <div>
-        <x-antd-button type="primary">Primary</x-antd-button>
-        <x-antd-button type="primary" disabled>
+        <x-button type="primary">Primary</x-button>
+        <x-button type="primary" disabled>
             Primary(disabled)
-        </x-antd-button>
+        </x-button>
         <br />
-        <x-antd-button>Default</x-antd-button>
-        <x-antd-button disabled>Default(disabled)</x-antd-button>
+        <x-button>Default</x-button>
+        <x-button disabled>Default(disabled)</x-button>
         <br />
-        <x-antd-button type="dashed">Dashed</x-antd-button>
-        <x-antd-button type="dashed" disabled>
+        <x-button type="dashed">Dashed</x-button>
+        <x-button type="dashed" disabled>
             Dashed(disabled)
-        </x-antd-button>
+        </x-button>
         <br />
-        <x-antd-button type="link">Link</x-antd-button>
-        <x-antd-button type="link" disabled>
+        <x-button type="link">Link</x-button>
+        <x-button type="link" disabled>
             Link(disabled)
-        </x-antd-button>
+        </x-button>
         <br />
-        <x-antd-button type="link" danger>
+        <x-button type="link" danger>
             Danger Link
-        </x-antd-button>
-        <x-antd-button type="link" danger disabled>
+        </x-button>
+        <x-button type="link" danger disabled>
             Danger Link(disabled)
-        </x-antd-button>
+        </x-button>
         <br />
-        <x-antd-button danger>Danger Default</x-antd-button>
-        <x-antd-button danger disabled>
+        <x-button danger>Danger Default</x-button>
+        <x-button danger disabled>
             Danger Default(disabled)
-        </x-antd-button>
+        </x-button>
         <div class="site-button-ghost-wrapper">
-            <x-antd-button ghost>Ghost</x-antd-button>
-            <x-antd-button ghost disabled>
+            <x-button ghost>Ghost</x-button>
+            <x-button ghost disabled>
                 Ghost(disabled)
-            </x-antd-button>
+            </x-button>
         </div>
     </div>
 
@@ -129,65 +129,65 @@
     <br />
 
     <div>
-        <x-antd-button type="primary" loading>
+        <x-button type="primary" loading>
             Loading
-        </x-antd-button>
-        <x-antd-button type="primary" size="small" loading>
+        </x-button>
+        <x-button type="primary" size="small" loading>
             Loading
-        </x-antd-button>
+        </x-button>
         <br />
-        <x-antd-button type="primary" :loading="false" onClick="enterLoading()">
+        <x-button type="primary" :loading="false" onClick="enterLoading()">
             Click me!
-        </x-antd-button>
-        <x-antd-button
+        </x-button>
+        <x-button
             type="primary"
             icon="poweroff"
             loading
             onClick="enterIconLoading()"
         >
             Click me!
-        </x-antd-button>
+        </x-button>
     </div>
 
     <br>
     <br>
 
     <div class="site-button-ghost-wrapper">
-        <x-antd-button type="primary" ghost>
+        <x-button type="primary" ghost>
             Primary
-        </x-antd-button>
-        <x-antd-button ghost>Default</x-antd-button>
-        <x-antd-button type="dashed" ghost>
+        </x-button>
+        <x-button ghost>Default</x-button>
+        <x-button type="dashed" ghost>
             link
-        </x-antd-button>
-        <x-antd-button type="text" ghost>
+        </x-button>
+        <x-button type="text" ghost>
             Text
-        </x-antd-button>
-        <x-antd-button type="link" ghost>
+        </x-button>
+        <x-button type="link" ghost>
             link
-        </x-antd-button>
+        </x-button>
     </div>
 
     <br>
     <br>
     <div>
-        <x-antd-button type="primary" block>
+        <x-button type="primary" block>
             Primary
-        </x-antd-button>
-        <x-antd-button block>Default</x-antd-button>
-        <x-antd-button type="dashed" block>
+        </x-button>
+        <x-button block>Default</x-button>
+        <x-button type="dashed" block>
             Dashed
-        </x-antd-button>
-        <x-antd-button type="link" block>
+        </x-button>
+        <x-button type="link" block>
             Link
-        </x-antd-button>
+        </x-button>
     </div>
 
 
     <br>
     <br>
     <div>
-        <x-antd-button type="primary" icon="download" block href="http://baidu.com" target="_blank">12</x-antd-button>
+        <x-button type="primary" icon="download" block href="http://baidu.com" target="_blank">12</x-button>
     </div>
 
 
@@ -202,40 +202,40 @@
 
     <div>
         <h4>Basic</h4>
-        <x-antd-button.group>
-            <x-antd-button>Cancel</x-antd-button>
-            <x-antd-button>OK</x-antd-button>
-        </x-antd-button.group>
-        <x-antd-button.group>
-            <x-antd-button disabled>L</x-antd-button>
-            <x-antd-button disabled>M</x-antd-button>
-            <x-antd-button disabled>R</x-antd-button>
-        </x-antd-button.group>
-        <x-antd-button.group>
-            <x-antd-button>L</x-antd-button>
-            <x-antd-button>M</x-antd-button>
-            <x-antd-button>R</x-antd-button>
-        </x-antd-button.group>
+        <x-button.group>
+            <x-button>Cancel</x-button>
+            <x-button>OK</x-button>
+        </x-button.group>
+        <x-button.group>
+            <x-button disabled>L</x-button>
+            <x-button disabled>M</x-button>
+            <x-button disabled>R</x-button>
+        </x-button.group>
+        <x-button.group>
+            <x-button>L</x-button>
+            <x-button>M</x-button>
+            <x-button>R</x-button>
+        </x-button.group>
 
         <h4>With Icon</h4>
-        <x-antd-button.group>
-            <x-antd-button type="primary">
-                <x-antd-icon name="left" />
+        <x-button.group>
+            <x-button type="primary">
+                <x-icon name="left" />
                 Go back
-            </x-antd-button>
-            <x-antd-button type="primary">
+            </x-button>
+            <x-button type="primary">
                 Go forward
-                <x-antd-icon name="right" />
-            </x-antd-button>
-        </x-antd-button.group>
-        <x-antd-button.group>
-            <x-antd-button type="primary" icon="cloud" />
-            <x-antd-button type="primary" icon="cloud-download" />
-        </x-antd-button.group>
-        <x-antd-button.group>
-            <x-antd-button type="primary" size="small" icon="cloud" />
-            <x-antd-button type="primary" size="small" icon="cloud-download" />
-        </x-antd-button.group>
+                <x-icon name="right" />
+            </x-button>
+        </x-button.group>
+        <x-button.group>
+            <x-button type="primary" icon="cloud" />
+            <x-button type="primary" icon="cloud-download" />
+        </x-button.group>
+        <x-button.group>
+            <x-button type="primary" size="small" icon="cloud" />
+            <x-button type="primary" size="small" icon="cloud-download" />
+        </x-button.group>
     </div>
 
     <br>

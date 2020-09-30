@@ -44,38 +44,38 @@
     </style>
     <section class="code-box-demo">
         <div>
-            <x-antd-layout>
-                <x-antd-layout.header>Header</x-antd-layout.header>
-                <x-antd-layout.content>Content</x-antd-layout.content>
-                <x-antd-layout.footer>Footer</x-antd-layout.footer>
-            </x-antd-layout>
+            <x-layout>
+                <x-layout.header>Header</x-layout.header>
+                <x-layout.content>Content</x-layout.content>
+                <x-layout.footer>Footer</x-layout.footer>
+            </x-layout>
 
-            <x-antd-layout>
-                <x-antd-layout.header>Header</x-antd-layout.header>
-                <x-antd-layout>
-                    <x-antd-layout.sider>Sider</x-antd-layout.sider>
-                    <x-antd-layout.content>Content</x-antd-layout.content>
-                </x-antd-layout>
-                <x-antd-layout.footer>Footer</x-antd-layout.footer>
-            </x-antd-layout>
+            <x-layout>
+                <x-layout.header>Header</x-layout.header>
+                <x-layout>
+                    <x-layout.sider>Sider</x-layout.sider>
+                    <x-layout.content>Content</x-layout.content>
+                </x-layout>
+                <x-layout.footer>Footer</x-layout.footer>
+            </x-layout>
 
-            <x-antd-layout>
-                <x-antd-layout.header>Header</x-antd-layout.header>
-                <x-antd-layout>
-                    <x-antd-layout.content>Content</x-antd-layout.content>
-                    <x-antd-layout.sider>Sider</x-antd-layout.sider>
-                </x-antd-layout>
-                <x-antd-layout.footer>Footer</x-antd-layout.footer>
-            </x-antd-layout>
+            <x-layout>
+                <x-layout.header>Header</x-layout.header>
+                <x-layout>
+                    <x-layout.content>Content</x-layout.content>
+                    <x-layout.sider>Sider</x-layout.sider>
+                </x-layout>
+                <x-layout.footer>Footer</x-layout.footer>
+            </x-layout>
 
-            <x-antd-layout>
-                <x-antd-layout.sider>Sider</x-antd-layout.sider>
-                <x-antd-layout>
-                    <x-antd-layout.header>Header</x-antd-layout.header>
-                    <x-antd-layout.content>Content</x-antd-layout.content>
-                    <x-antd-layout.footer>Footer</x-antd-layout.footer>
-                </x-antd-layout>
-            </x-antd-layout>
+            <x-layout>
+                <x-layout.sider>Sider</x-layout.sider>
+                <x-layout>
+                    <x-layout.header>Header</x-layout.header>
+                    <x-layout.content>Content</x-layout.content>
+                    <x-layout.footer>Footer</x-layout.footer>
+                </x-layout>
+            </x-layout>
         </div>
     </section>
 

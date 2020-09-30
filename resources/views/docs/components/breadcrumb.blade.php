@@ -2,32 +2,32 @@
 
 @section('content')
 
-    <x-antd-breadcrumb>
-        <x-antd-breadcrumb.item href="">
-            <x-antd-icon name="home" />
-        </x-antd-breadcrumb.item>
-        <x-antd-breadcrumb.item href="">
-            <x-antd-icon name="user" />
+    <x-breadcrumb>
+        <x-breadcrumb.item href="">
+            <x-icon name="home" />
+        </x-breadcrumb.item>
+        <x-breadcrumb.item href="">
+            <x-icon name="user" />
             <span>Application List</span>
-        </x-antd-breadcrumb.item>
-        <x-antd-breadcrumb.item>
+        </x-breadcrumb.item>
+        <x-breadcrumb.item>
             <x-slot name="overlay">
                 aaaaaaaaaa
             </x-slot>
             Application
-        </x-antd-breadcrumb.item>
-    </x-antd-breadcrumb>
+        </x-breadcrumb.item>
+    </x-breadcrumb>
 
 
-    <x-antd-breadcrumb separator="">
-        <x-antd-breadcrumb.item>Location</x-antd-breadcrumb.item>
-        <x-antd-breadcrumb.separator>:</x-antd-breadcrumb.separator>
-        <x-antd-breadcrumb.item href="">Application Center</x-antd-breadcrumb.item>
-        <x-antd-breadcrumb.separator />
-        <x-antd-breadcrumb.item href="">Application List</x-antd-breadcrumb.item>
-        <x-antd-breadcrumb.separator />
-        <x-antd-breadcrumb.item>An Application</x-antd-breadcrumb.item>
-    </x-antd-breadcrumb>
+    <x-breadcrumb separator="">
+        <x-breadcrumb.item>Location</x-breadcrumb.item>
+        <x-breadcrumb.separator>:</x-breadcrumb.separator>
+        <x-breadcrumb.item href="">Application Center</x-breadcrumb.item>
+        <x-breadcrumb.separator />
+        <x-breadcrumb.item href="">Application List</x-breadcrumb.item>
+        <x-breadcrumb.separator />
+        <x-breadcrumb.item>An Application</x-breadcrumb.item>
+    </x-breadcrumb>
 
     @php
     $routes = [
@@ -41,13 +41,13 @@
         ],
     ];
     @endphp
-    <x-antd-breadcrumb :routes="$routes">
-        <x-antd-breadcrumb.item>Location</x-antd-breadcrumb.item>
-        <x-antd-breadcrumb.separator>:</x-antd-breadcrumb.separator>
-        <x-antd-breadcrumb.item href="">Application Center</x-antd-breadcrumb.item>
-        <x-antd-breadcrumb.separator />
-        <x-antd-breadcrumb.item href="">Application List</x-antd-breadcrumb.item>
-        <x-antd-breadcrumb.separator />
-        <x-antd-breadcrumb.item>An Application</x-antd-breadcrumb.item>
-    </x-antd-breadcrumb>
+    <x-breadcrumb :routes="$routes">
+        <x-breadcrumb.item>Location</x-breadcrumb.item>
+        <x-breadcrumb.separator>:</x-breadcrumb.separator>
+        <x-breadcrumb.item href="">Application Center</x-breadcrumb.item>
+        <x-breadcrumb.separator />
+        <x-breadcrumb.item href="">Application List</x-breadcrumb.item>
+        <x-breadcrumb.separator />
+        <x-breadcrumb.item>An Application</x-breadcrumb.item>
+    </x-breadcrumb>
 @endsection

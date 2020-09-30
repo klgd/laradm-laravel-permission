@@ -28,15 +28,15 @@
         }
     </style>
     <div>
-        <x-antd-badge offset="4" count="5">
+        <x-badge offset="4" count="5">
             <a href="#" class="head-example"></a>
-        </x-antd-badge>
-        <x-antd-badge count="0" showZero>
+        </x-badge>
+        <x-badge count="0" showZero>
             <a href="#" class="head-example"></a>
-        </x-antd-badge>
-        <x-antd-badge count="clock-circle">
+        </x-badge>
+        <x-badge count="clock-circle">
             <a href="#" class="head-example"></a>
-        </x-antd-badge>
+        </x-badge>
     </div>
 
     <br>
@@ -45,9 +45,9 @@
     <br>
 
     <div>
-        <x-antd-badge count="25" />
-        <x-antd-badge count="4" class="site-badge-count-4" />
-        <x-antd-badge class="site-badge-count-109" count="109" style="background-color: #52c41a" />
+        <x-badge count="25" />
+        <x-badge count="4" class="site-badge-count-4" />
+        <x-badge class="site-badge-count-109" count="109" style="background-color: #52c41a" />
     </div>
 
     <br>
@@ -56,62 +56,62 @@
     <br>
 
     <div>
-        <x-antd-badge count="99">
+        <x-badge count="99">
             <a href="#" class="head-example"></a>
-        </x-antd-badge>
-        <x-antd-badge count="100">
+        </x-badge>
+        <x-badge count="100">
             <a href="#" class="head-example"></a>
-        </x-antd-badge>
-        <x-antd-badge count="99" overflowCount="10">
+        </x-badge>
+        <x-badge count="99" overflowCount="10">
             <a href="#" class="head-example"></a>
-        </x-antd-badge>
-        <x-antd-badge count="1000" overflowCount="999">
+        </x-badge>
+        <x-badge count="1000" overflowCount="999">
             <a href="#" class="head-example"></a>
-        </x-antd-badge>
+        </x-badge>
     </div>
 
     <br>
     <br>
     <br>
     <div>
-        <x-antd-badge dot>
-            <x-antd-icon name="notification" />
-        </x-antd-badge>
-        <x-antd-badge count="0" dot>
-            <x-antd-icon name="notification" />
-        </x-antd-badge>
-        <x-antd-badge dot>
+        <x-badge dot>
+            <x-icon name="notification" />
+        </x-badge>
+        <x-badge count="0" dot>
+            <x-icon name="notification" />
+        </x-badge>
+        <x-badge dot>
             <a href="#">Link something</a>
-        </x-antd-badge>
+        </x-badge>
     </div>
 
     <br>
     <br>
     <br>
     <a href="#">
-        <x-antd-badge count="5">
+        <x-badge count="5">
             <span class="head-example"></span>
-        </x-antd-badge>
+        </x-badge>
     </a>
     <br>
     <br>
     <br>
     <div>
-        <x-antd-badge status="success" />
-        <x-antd-badge status="error" />
-        <x-antd-badge status="default" />
-        <x-antd-badge status="processing" />
-        <x-antd-badge status="warning" />
+        <x-badge status="success" />
+        <x-badge status="error" />
+        <x-badge status="default" />
+        <x-badge status="processing" />
+        <x-badge status="warning" />
         <br>
-        <x-antd-badge status="success" text="Success" />
+        <x-badge status="success" text="Success" />
         <br />
-        <x-antd-badge status="error" text="Error" />
+        <x-badge status="error" text="Error" />
         <br />
-        <x-antd-badge status="default" text="Default" />
+        <x-badge status="default" text="Default" />
         <br />
-        <x-antd-badge status="processing" text="Processing" />
+        <x-badge status="processing" text="Processing" />
         <br />
-        <x-antd-badge status="warning" text="Warning" style="color: #000" />
+        <x-badge status="warning" text="Warning" style="color: #000" />
     </div>
     <br>
     <br>
@@ -142,19 +142,19 @@
         <div>
             @foreach ($colors as $color)
                 <div>
-                    <x-antd-badge :color="$color" :text="$color" />
+                    <x-badge :color="$color" :text="$color" />
                 </div>
             @endforeach
         </div>
         <h4 style="margin: 16px 0">Custom:</h4>
         <div>
-            <x-antd-badge color="#f50" text="#f50" />
+            <x-badge color="#f50" text="#f50" />
             <br />
-            <x-antd-badge color="#2db7f5" text="#2db7f5" />
+            <x-badge color="#2db7f5" text="#2db7f5" />
             <br />
-            <x-antd-badge color="#87d068" text="#87d068" />
+            <x-badge color="#87d068" text="#87d068" />
             <br />
-            <x-antd-badge color="#108ee9" text="#108ee9" />
+            <x-badge color="#108ee9" text="#108ee9" />
         </div>
     </div>
     <br>

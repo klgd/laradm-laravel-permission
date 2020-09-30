@@ -1,19 +1,19 @@
 @extends('docs.component')
 
 @section('content')
-    <x-antd-slider name="addad" min="-1000" max="1000" />
+    <x-slider name="addad" min="-1000" max="1000" />
     <br>
     <br>
     <br>
     <br>
 
-    <x-antd-slider range value="2,4" />
-    <x-antd-slider value="2,4" step="0.01" />
+    <x-slider range value="2,4" />
+    <x-slider value="2,4" step="0.01" />
     <br>
     <br>
     <br>
     <br>
-    <x-antd-slider
+    <x-slider
         value="50"
         marks="0,100,200,300,400"
     />
@@ -31,7 +31,7 @@
         400 => '$400',
     ];
     @endphp
-    <x-antd-slider
+    <x-slider
         value="50"
         :marks="$marks"
         reverse
@@ -72,9 +72,9 @@
     </style>
 
     <div class="icon-wrapper">
-        <x-antd-icon name="frown" />
-        <x-antd-slider name="adddwd" min="10" max="1000" value="53" />
-        <x-antd-icon name="smile" />
+        <x-icon name="frown" />
+        <x-slider name="adddwd" min="10" max="1000" value="53" />
+        <x-icon name="smile" />
     </div>
 
     <br>
@@ -85,14 +85,14 @@
     <br>
 
     <div style="display: inline-block; height: 300px; margin-left: 70px;">
-        <x-antd-slider
+        <x-slider
             name="adadawd"
 {{--            reverse--}}
             vertical value="5" />
     </div>
     <div style="display: inline-block; height: 300px; margin-left: 70px;">
 
-        <x-antd-slider
+        <x-slider
             name="adadawd"
             reverse
             vertical value="5" />
@@ -101,7 +101,7 @@
 
     <div style="display: inline-block; height: 300px; margin-left: 70px;">
 
-        <x-antd-slider
+        <x-slider
             value="34"
             vertical
             data-slider-ticks-snap-bounds="3"
@@ -112,7 +112,7 @@
 
     <div style="display: inline-block; height: 300px; margin-left: 70px;">
 
-        <x-antd-slider
+        <x-slider
             value="26,34"
             vertical
             data-slider-ticks-snap-bounds="3"
@@ -123,7 +123,7 @@
 
     <div style="display: inline-block; height: 300px; margin-left: 70px;">
 
-        <x-antd-slider
+        <x-slider
             value="26,34"
             vertical
             reverse

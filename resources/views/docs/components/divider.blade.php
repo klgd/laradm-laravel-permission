@@ -7,17 +7,17 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
             probare, quae sunt a te dicta? Refert tamen, quo modo.
         </p>
-        <x-antd-divider dashed>Text</x-antd-divider>
+        <x-divider dashed>Text</x-divider>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
             probare, quae sunt a te dicta? Refert tamen, quo modo.
         </p>
-        <x-antd-divider orientation="left">Left Text</x-antd-divider>
+        <x-divider orientation="left">Left Text</x-divider>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
             probare, quae sunt a te dicta? Refert tamen, quo modo.
         </p>
-        <x-antd-divider orientation="right">Right Text</x-antd-divider>
+        <x-divider orientation="right">Right Text</x-divider>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
             probare, quae sunt a te dicta? Refert tamen, quo modo.
@@ -26,9 +26,9 @@
 
     <div>
         Text
-        <x-antd-divider type="vertical" />
+        <x-divider type="vertical" />
         <a href="#">Link</a>
-        <x-antd-divider type="vertical" />
+        <x-divider type="vertical" />
         <a href="#">Link</a>
     </div>
 
@@ -36,21 +36,21 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
         probare, quae sunt a te dicta? Refert tamen, quo modo.
     </p>
-    <x-antd-divider plain>Text</x-antd-divider>
+    <x-divider plain>Text</x-divider>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
         probare, quae sunt a te dicta? Refert tamen, quo modo.
     </p>
-    <x-antd-divider orientation="left" plain>
+    <x-divider orientation="left" plain>
         Left Text
-    </x-antd-divider>
+    </x-divider>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
         probare, quae sunt a te dicta? Refert tamen, quo modo.
     </p>
-    <x-antd-divider orientation="right" plain>
+    <x-divider orientation="right" plain>
         Right Text
-    </x-antd-divider>
+    </x-divider>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
         probare, quae sunt a te dicta? Refert tamen, quo modo.

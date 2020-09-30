@@ -2,11 +2,6 @@
 
 return [
     /**
-     * 组件别名前缀
-     */
-    'prefix' => 'antd',
-
-    /**
      * 设置 antd 组件大小
      * small | middle | large
      */

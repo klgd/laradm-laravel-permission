@@ -20,14 +20,14 @@
         }
     </style>
 
-    <x-antd-space direction="vertical">
+    <x-space direction="vertical">
         Space
-        <x-antd-button type="primary">Button</x-antd-button>
-        <x-antd-button>
+        <x-button type="primary">Button</x-button>
+        <x-button>
             Click to Upload
-        </x-antd-button>
-        <x-antd-button>Confirm</x-antd-button>
-    </x-antd-space>
+        </x-button>
+        <x-button>Confirm</x-button>
+    </x-space>
 
 
     <br>
@@ -35,14 +35,14 @@
     <br>
     <br>
 
-    <x-antd-space size="9">
-        <x-antd-button type="primary">Primary</x-antd-button>
-        <x-antd-button>Default</x-antd-button>
-        <x-antd-button type="dashed">Dashed</x-antd-button>
-        <x-antd-button type="link">Link</x-antd-button>
-    </x-antd-space>
+    <x-space size="9">
+        <x-button type="primary">Primary</x-button>
+        <x-button>Default</x-button>
+        <x-button type="dashed">Dashed</x-button>
+        <x-button type="link">Link</x-button>
+    </x-space>
 
-    <x-antd-space></x-antd-space>
+    <x-space></x-space>
 
     <br>
     <br>
@@ -52,32 +52,32 @@
 
     <div class="space-align-container">
         <div class="space-align-block">
-            <x-antd-space align="center">
+            <x-space align="center">
                 center
-                <x-antd-button type="primary">Primary</x-antd-button>
+                <x-button type="primary">Primary</x-button>
                 <span class="mock-block">Block</span>
-            </x-antd-space>
+            </x-space>
         </div>
         <div class="space-align-block">
-            <x-antd-space align="start">
+            <x-space align="start">
                 start
-                <x-antd-button type="primary">Primary</x-antd-button>
+                <x-button type="primary">Primary</x-button>
                 <span class="mock-block">Block</span>
-            </x-antd-space>
+            </x-space>
         </div>
         <div class="space-align-block">
-            <x-antd-space align="end">
+            <x-space align="end">
                 end
-                <x-antd-button type="primary">Primary</x-antd-button>
+                <x-button type="primary">Primary</x-button>
                 <span class="mock-block">Block</span>
-            </x-antd-space>
+            </x-space>
         </div>
         <div class="space-align-block">
-            <x-antd-space align="baseline">
+            <x-space align="baseline">
                 baseline
-                <x-antd-button type="primary">Primary</x-antd-button>
+                <x-button type="primary">Primary</x-button>
                 <span class="mock-block">Block</span>
-            </x-antd-space>
+            </x-space>
         </div>
     </div>
 

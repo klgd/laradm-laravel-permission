@@ -1,46 +1,46 @@
 @extends('docs.component')
 
 @section('content')
-    <x-antd-radio>Radio</x-antd-radio>
+    <x-radio>Radio</x-radio>
 
     <div>
-        <x-antd-radio disabled />
+        <x-radio disabled />
         <br/>
-        <x-antd-radio checked disabled>
+        <x-radio checked disabled>
             Disabled
-        </x-antd-radio>
+        </x-radio>
     </div>
 
     <br>
     <br>
     <br>
 
-    <x-antd-radio.group name="aadd" value="2">
-        <x-antd-radio value="1">A</x-antd-radio>
-        <x-antd-radio value="2">B</x-antd-radio>
-        <x-antd-radio value="3">C</x-antd-radio>
-        <x-antd-radio value="4">D</x-antd-radio>
-    </x-antd-radio.group>
+    <x-radio.group name="aadd" value="2">
+        <x-radio value="1">A</x-radio>
+        <x-radio value="2">B</x-radio>
+        <x-radio value="3">C</x-radio>
+        <x-radio value="4">D</x-radio>
+    </x-radio.group>
 
     <br>
     <br>
     <br>
 
-    <x-antd-radio.group name="adfdfe" value="1">
-        <x-antd-radio style="display: block; height: 30px; line-height: 30px;" value="1">
+    <x-radio.group name="adfdfe" value="1">
+        <x-radio style="display: block; height: 30px; line-height: 30px;" value="1">
             Option A
-        </x-antd-radio>
-        <x-antd-radio style="display: block; height: 30px; line-height: 30px;" value="2">
+        </x-radio>
+        <x-radio style="display: block; height: 30px; line-height: 30px;" value="2">
             Option B
-        </x-antd-radio>
-        <x-antd-radio style="display: block; height: 30px; line-height: 30px;" value="3">
+        </x-radio>
+        <x-radio style="display: block; height: 30px; line-height: 30px;" value="3">
             Option C
-        </x-antd-radio>
-        <x-antd-radio style="display: block; height: 30px; line-height: 30px;" value="4">
+        </x-radio>
+        <x-radio style="display: block; height: 30px; line-height: 30px;" value="4">
             More...
 
-        </x-antd-radio>
-    </x-antd-radio.group>
+        </x-radio>
+    </x-radio.group>
 
     <br>
     <br>
@@ -61,11 +61,11 @@
     @endphp
 
     <div>
-        <x-antd-radio.group name="fgff" :options="$plainOptions" value="Apple"/>
+        <x-radio.group name="fgff" :options="$plainOptions" value="Apple"/>
         <br>
-        <x-antd-radio.group name="adff" :options="$options" value="Pear"/>
+        <x-radio.group name="adff" :options="$options" value="Pear"/>
         <br>
-        <x-antd-radio.group
+        <x-radio.group
             name="adfe"
             disabled
             :options="$optionsWithDisabled"
@@ -78,68 +78,68 @@
     <br>
 
 
-    <x-antd-radio.group name="cc1" value="a">
-        <x-antd-radio.button value="a">Hangzhou</x-antd-radio.button>
-        <x-antd-radio.button value="b">Shanghai</x-antd-radio.button>
-        <x-antd-radio.button value="c">Beijing</x-antd-radio.button>
-        <x-antd-radio.button value="d">Chengdu</x-antd-radio.button>
-    </x-antd-radio.group>
-    <x-antd-radio.group name="cc2" value="a" style="margin-top: 16px">
-        <x-antd-radio.button value="a">Hangzhou</x-antd-radio.button>
-        <x-antd-radio.button value="b" disabled>
+    <x-radio.group name="cc1" value="a">
+        <x-radio.button value="a">Hangzhou</x-radio.button>
+        <x-radio.button value="b">Shanghai</x-radio.button>
+        <x-radio.button value="c">Beijing</x-radio.button>
+        <x-radio.button value="d">Chengdu</x-radio.button>
+    </x-radio.group>
+    <x-radio.group name="cc2" value="a" style="margin-top: 16px">
+        <x-radio.button value="a">Hangzhou</x-radio.button>
+        <x-radio.button value="b" disabled>
             Shanghai
-        </x-antd-radio.button>
-        <x-antd-radio.button value="c">Beijing</x-antd-radio.button>
-        <x-antd-radio.button value="d">Chengdu</x-antd-radio.button>
-    </x-antd-radio.group>
-    <x-antd-radio.group name="cc3" disabled value="a" style="margin-top: 16px">
-        <x-antd-radio.button value="a">Hangzhou</x-antd-radio.button>
-        <x-antd-radio.button value="b">Shanghai</x-antd-radio.button>
-        <x-antd-radio.button value="c">Beijing</x-antd-radio.button>
-        <x-antd-radio.button value="d">Chengdu</x-antd-radio.button>
-    </x-antd-radio.group>
+        </x-radio.button>
+        <x-radio.button value="c">Beijing</x-radio.button>
+        <x-radio.button value="d">Chengdu</x-radio.button>
+    </x-radio.group>
+    <x-radio.group name="cc3" disabled value="a" style="margin-top: 16px">
+        <x-radio.button value="a">Hangzhou</x-radio.button>
+        <x-radio.button value="b">Shanghai</x-radio.button>
+        <x-radio.button value="c">Beijing</x-radio.button>
+        <x-radio.button value="d">Chengdu</x-radio.button>
+    </x-radio.group>
 
     <br>
     <br>
     <br>
 
 
-    <x-antd-radio.group name="awdf" value="a" buttonStyle="solid">
-        <x-antd-radio.button value="a">Hangzhou</x-antd-radio.button>
-        <x-antd-radio.button value="b">Shanghai</x-antd-radio.button>
-        <x-antd-radio.button value="c">Beijing</x-antd-radio.button>
-        <x-antd-radio.button value="d">Chengdu</x-antd-radio.button>
-    </x-antd-radio.group>
-    <x-antd-radio.group name="vsffef" value="c" buttonStyle="solid" style="margin-top: 16px">
-        <x-antd-radio.button value="a">Hangzhou</x-antd-radio.button>
-        <x-antd-radio.button value="b" disabled>
+    <x-radio.group name="awdf" value="a" buttonStyle="solid">
+        <x-radio.button value="a">Hangzhou</x-radio.button>
+        <x-radio.button value="b">Shanghai</x-radio.button>
+        <x-radio.button value="c">Beijing</x-radio.button>
+        <x-radio.button value="d">Chengdu</x-radio.button>
+    </x-radio.group>
+    <x-radio.group name="vsffef" value="c" buttonStyle="solid" style="margin-top: 16px">
+        <x-radio.button value="a">Hangzhou</x-radio.button>
+        <x-radio.button value="b" disabled>
             Shanghai
-        </x-antd-radio.button>
-        <x-antd-radio.button value="c">Beijing</x-antd-radio.button>
-        <x-antd-radio.button value="d">Chengdu</x-antd-radio.button>
-    </x-antd-radio.group>
+        </x-radio.button>
+        <x-radio.button value="c">Beijing</x-radio.button>
+        <x-radio.button value="d">Chengdu</x-radio.button>
+    </x-radio.group>
 
     <br>
     <br>
     <br>
 
-    <x-antd-radio.group name="awdwfff" value="a" size="large">
-        <x-antd-radio.button value="a">Hangzhou</x-antd-radio.button>
-        <x-antd-radio.button value="b">Shanghai</x-antd-radio.button>
-        <x-antd-radio.button value="c">Beijing</x-antd-radio.button>
-        <x-antd-radio.button value="d">Chengdu</x-antd-radio.button>
-    </x-antd-radio.group>
-    <x-antd-radio.group name="awddvwww" value="a" style="margin-top: 16px">
-        <x-antd-radio.button value="a">Hangzhou</x-antd-radio.button>
-        <x-antd-radio.button value="b">Shanghai</x-antd-radio.button>
-        <x-antd-radio.button value="c">Beijing</x-antd-radio.button>
-        <x-antd-radio.button value="d">Chengdu</x-antd-radio.button>
-    </x-antd-radio.group>
-    <x-antd-radio.group name="dwvedd" value="a" size="small" style="margin-top: 16px">
-        <x-antd-radio.button value="a">Hangzhou</x-antd-radio.button>
-        <x-antd-radio.button value="b">Shanghai</x-antd-radio.button>
-        <x-antd-radio.button value="c">Beijing</x-antd-radio.button>
-        <x-antd-radio.button value="d">Chengdu</x-antd-radio.button>
-    </x-antd-radio.group>
+    <x-radio.group name="awdwfff" value="a" size="large">
+        <x-radio.button value="a">Hangzhou</x-radio.button>
+        <x-radio.button value="b">Shanghai</x-radio.button>
+        <x-radio.button value="c">Beijing</x-radio.button>
+        <x-radio.button value="d">Chengdu</x-radio.button>
+    </x-radio.group>
+    <x-radio.group name="awddvwww" value="a" style="margin-top: 16px">
+        <x-radio.button value="a">Hangzhou</x-radio.button>
+        <x-radio.button value="b">Shanghai</x-radio.button>
+        <x-radio.button value="c">Beijing</x-radio.button>
+        <x-radio.button value="d">Chengdu</x-radio.button>
+    </x-radio.group>
+    <x-radio.group name="dwvedd" value="a" size="small" style="margin-top: 16px">
+        <x-radio.button value="a">Hangzhou</x-radio.button>
+        <x-radio.button value="b">Shanghai</x-radio.button>
+        <x-radio.button value="c">Beijing</x-radio.button>
+        <x-radio.button value="d">Chengdu</x-radio.button>
+    </x-radio.group>
 
 @endsection
